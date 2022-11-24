@@ -8,5 +8,11 @@ document.body.addEventListener("click", event => {
        audio.play();
   });
 
+  const banner = document.querySelector('.banner');
+
+  window.addEventListener('scroll', (event) => {
+    banner.setAttribute('class','banner2');
+    document.body.setAttribute('class','body2');
+  });
   
 

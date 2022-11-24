@@ -1,0 +1,38 @@
+body{
+    margin: 0%;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    font-size: 3.5vh;
+    background-color: #000000;
+    color: white;
+}
+
+.body2{
+    margin: 0%;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    font-size: 3.5vh;
+    background-image: url(https://whimsysoul.com/wp-content/uploads/2020/02/Whimsy-Soul-Dunder-Mifflin-The-Office-3.png);
+    background-color: #000000;
+    background-size: cover;
+    color: white;
+}
+
+
+.banner {
+    width: 100%;
+    background-image: url(https://whimsysoul.com/wp-content/uploads/2020/02/Whimsy-Soul-Dunder-Mifflin-The-Office-3.png);
+    height: 77vh;
+    background-size: cover;
+    background-color: purple;
+    background-position: center;
+  }
+
+  .banner2{
+    width: 0;
+    height: 0;
+  }
+
+  .event_title{
+    margin-top: 10vh;
+  }
