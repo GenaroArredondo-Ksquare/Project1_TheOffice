@@ -92,7 +92,12 @@ header{
     z-index: 100000;
   }
 }
-
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
 
 
 
@@ -170,7 +175,14 @@ header.sticky .logo,
 header.sticky ul li a{
     color: #000;
 }
+#events{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
 .container{
+    justify-content: center;
     display:flex;
     align-items: center;
     flex-direction: column;
