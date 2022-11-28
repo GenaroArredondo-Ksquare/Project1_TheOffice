@@ -9,10 +9,15 @@ document.body.addEventListener("click", event => {
   });
 
   const banner = document.querySelector('.banner');
+  const header = document.querySelector('header');
 
-  window.addEventListener('scroll', () => {
-    const header = document.querySelector('header');
-    header.classList.toggle('sticky', window.scrollY > 0);
-})
+
   
-
+window.addEventListener('scroll', async (event) => {
+  header.setAttribute('class','header2');
+  header.classList.toggle('sticky', window.scrollY > 0);
+  banner.setAttribute('class','banner2');
+  await new Promise(resolve => setTimeout(resolve, 500));
+  document.body.setAttribute('class','body2');
+  
+});
