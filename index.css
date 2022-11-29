@@ -175,6 +175,20 @@ header.sticky .logo,
 header.sticky ul li a{
     color: #000;
 }
+
+#Home{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+#map {
+  height: 70px;
+  /* The height is 400 pixels */
+  width: 70px;
+  /* The width is the width of the web page */
+}
 #events{
     justify-content: center;
     display:flex;
@@ -182,6 +196,7 @@ header.sticky ul li a{
     flex-direction: column;
 }
 .container{
+  margin-top: 77vh;
     justify-content: center;
     display:flex;
     align-items: center;
@@ -234,5 +249,5 @@ html {
   }
   
 .info{
-  margin-top: 30vh;
+  width: 400px;
 }
