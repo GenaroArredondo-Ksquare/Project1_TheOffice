@@ -12,6 +12,7 @@ document.body.addEventListener("click", event => {
   const header = document.querySelector('header');
   const home = document.querySelector('.home');
   const events = document.querySelector('.events');
+  const temptitle = document.querySelector('.temptitle');
 
 
   
@@ -21,5 +22,6 @@ window.addEventListener('scroll', async (event) => {
   banner.setAttribute('class','banner2');
   home.setAttribute('class','home2');
   events.setAttribute('class','events2');
+  temptitle.setAttribute('class','temptitle2');
 
 });
