@@ -25,3 +25,12 @@ window.addEventListener('scroll', async (event) => {
   temptitle.setAttribute('class','temptitle2');
 
 });
+
+temptitle.addEventListener("click", event => {
+  header.setAttribute('class','header2');
+  header.classList.toggle('sticky', window.scrollY > 0);
+  banner.setAttribute('class','banner2');
+  home.setAttribute('class','home2');
+  events.setAttribute('class','events2');
+  temptitle.setAttribute('class','temptitle2');
+ });
