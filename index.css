@@ -2,21 +2,53 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+
+@import url(//db.onlinewebfonts.com/c/bf35ddaa105b41dd66cb2eb93424c588?family=American+Typewriter);
+*{
+  font-family: 'American Typewriter', sans-serif;
+}
 body{
   margin: 0%;
-  font-family: 'Times New Roman';
+  font-family: 'American Typewriter', sans-serif;
   background-color: #000000;
   color: white;
 }
 
 .info{
-  margin-top: 45vh;
+  align-items: center;
+  justify-content: center;
+  color:black;
 }
-
+.title{
+  background-color: gold;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#location{
+  background-color: lightblue;
+}
+#hour{
+  background-color:plum;
+}
 .home{
   margin-top: 30vh;
 }
-
+.information{
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://img.freepik.com/fotos-premium/superficie-tablero-corcho_88281-2662.jpg?w=2000');
+  background-size:contain;
+  height: 450px;
+  width: 780px;
+  padding-right: 40px;
+  margin-top: 50px;
+  border: 10px solid rgb(235, 223, 223) ;
+}
 .home2{
   background-image: url(https://whimsysoul.com/wp-content/uploads/2020/02/Whimsy-Soul-Dunder-Mifflin-The-Office-3.png);
   animation-duration: 1s;
@@ -93,10 +125,14 @@ header{
   }
 }
 section{
+    font-family: 'American Typewriter', sans-serif;
     width: 100%;
     float: left;
     height: 100vh;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .events2{
@@ -133,7 +169,6 @@ header .logo{
     font-weight: 700;
     text-decoration: none;
     font-size: 2em;
-    text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.6s;
     color: #fff;
@@ -158,12 +193,7 @@ header ul li a {
     color: #fff;
 }
 
-#Map{
- 
-  position: relative;
-  left: 50vw;
-  top: -60vh;
-}
+
 
 .banner {
   width: 100%;
@@ -205,24 +235,31 @@ header.sticky ul li a{
     color: #000;
 }
 
-#Home{
+#Map{
+  display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
-  flex-direction: row;
-}
-
-#map {
-  height: 70px;
-  /* The height is 400 pixels */
-  width: 70px;
+  border: 10px solid rgb(187, 179, 179);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
   /* The width is the width of the web page */
 }
+iframe{
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 300px;
+
+}
+
+
 .box{
+  color: #000;
   width: 500px;
+  padding: 70px;
+  background-image: url('https://www.pngall.com/wp-content/uploads/10/Paper-PNG-Image-File.png');
+  background-size:contain;
 }
 .box h3 {
-  color: #fff;
+  color: rgb(255, 252, 252);
   background: rgb(39, 108, 237);
   padding: 10px 20px;
   font-size: 20px;
@@ -272,8 +309,18 @@ header.sticky ul li a{
     align-items: center;
     flex-direction: column;
 }
+.us{
+    background-image: url('https://www.pngall.com/wp-content/uploads/10/Whiteboard-PNG-Download-Image.png');
+    background-size:contain;
+    padding: 72px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+  
+}
 .Title{
-    color: blueviolet;
+    color: rgb(0, 0, 0);
 }
 .all{
     display: flex;
@@ -282,16 +329,17 @@ header.sticky ul li a{
 
 }
 .all .member{
-    padding: 50px;
+
+    padding: 20px;
 
 }
+
 .name{
-    padding: 20px;
+    font-weight: bolder;
     align-items: center;
     text-align: center;
-    background-color: rgb(39, 108, 237);
     margin-top: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 10px;
 }
 .Image{
@@ -301,12 +349,13 @@ header.sticky ul li a{
     align-items: center;
     overflow: hidden;
     border-radius: 100%;
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
     border-color: rgb(255, 255, 255);
     border-width: 5px;
     border-style: solid;
-    box-shadow: 0 0 10px rgba(21, 19, 19, 0.5);
+    box-shadow: 0 0 10px rgba(21, 19, 19, 0.9);
+    
 }
 .image img.icon{
 
@@ -319,7 +368,11 @@ html {
   }
   
 .info{
-  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 340px;
 }
 
 .btn-container {
