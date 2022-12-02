@@ -322,6 +322,19 @@ html {
   width: 400px;
 }
 
+.btn-container {
+  position: fixed;
+  bottom:50px;
+  right: 50px;
+}
+.soundBtn {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-size: 60px 60px;
+  background-image: url(https://www.shutterstock.com/image-vector/mute-icon-260nw-609790580.jpg);
+}
 
 /*Animation for scroll down button*/
 a#scroll-btn {
